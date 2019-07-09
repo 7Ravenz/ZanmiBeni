@@ -3,57 +3,71 @@
     <head>
          
         <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    
-         
-      <!-- Compiled and minified CSS -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Let browser know website is optimized for mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Zamni Beni</title>
+
+        <!-- Navigation Bar -->
+        <nav> 
+            <!-- Top Border -->
+            <div class="nav-wrapper blue">
+    
+                <!-- Navigation List -->
+                <ul id="nav-mobile" class="left">
+    
+                    <!-- Logo button-->
+                    <li> <a href="index.html"> <img src="/IMAGES/ZanmiBeni-HEADER-LOGO.jpg" alt=""> </a></li>
+    
+                    <!-- Our Story dropdown button-->
+                    <li> <a class="dropdown-trigger" href="#1" data-target="dropdown1">Our Home<i class="material-icons right"> arrow_drop_down</i></a> </li>
+                    <!-- Dropdown Content -->    
+                        <ul id="dropdown1" class="dropdown-content">
+                            <li> <a href="#!"> 
+                                <!-- Multilingual not currently working -->
+                                <span lang="en" class="en">Our Story</span> 
+                                <span lang="fr" class="fr">Notre Histoire</span> </a> </li>
+                            <li> <a href="#!"> 
+                                <span lang="en" class="en">Our Children</span> 
+                                <span lang="fr" class="fr">Nos Enfants</span> </a> </li>
+                        </ul>
+    
+                    <!-- Contact Us Button -->
+                    <li> <a href="../HTML/Contact.html"> Contact Us </a> </li>
+    
+                    <!-- Help Us Button -->
+                    <li> <a href="../HTML/Donate.html"> Help Us </a></li>
+                </ul>
+            </div>
+        </nav>
     </head>
 
     <body>
 
-        <!-- Dropdown Structure -->
-    
-        <ul id="dropdown1" class="dropdown-content">
-            <li> <a href="#!"> About Us </a> </li>
-            <li> <a href="#!"> Our Kids </a></li>
+        
 
-        </ul>
-        <nav> 
-            <div class="nav-wrapper blue">
-                <a href="index.html" class="brand-logo"> Logo </a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li> <a class="dropdown-trigger" href="#1" data-target="dropdown1">Organization<i class="material-icons right"> arrow_drop_down</i></a> </li>
-                    <li> <a href="../HTML/Contact.html"> Contact </a> </li>
-                    <li> <a href="../HTML/Donate.html"> Donate </a></li>
-
-                </ul>
-            </div>
-        </nav>
-
+        <!-- jQuery Code -->
         <script src="/JS/jQuery.min.js"></script>
 
+        <!-- Dropdown Function -->
         <script>
-            $(function(){
-                $('.dropdown-trigger').dropdown({
-                    coverTrigger: false,
-                    hover: true
+                $(function(){
+                    $('.dropdown-trigger').dropdown({
+                        coverTrigger: false,
+                        hover: true
+                    })
                 })
-            })
-        </script>
+            </script>
     
-        <!--JavaScript at end of body for optimized loading-->
+        <!-- JavaScript at end of body for optimized loading -->
         <script type="text/javascript" src="js/materialize.min.js"></script>
       
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-
-
 
     </body>
 </html>
