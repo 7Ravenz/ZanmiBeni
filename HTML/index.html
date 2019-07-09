@@ -27,7 +27,8 @@
         </ul>
         <nav> 
             <div class="nav-wrapper blue">
-                <a href="index.html" class="brand-logo"> Logo </a>
+                <a href="index.html" class="brand-logo"> <img class="responsive-img" src="IMAGE/ZanmiBeni-HEADER-LOGO.jpg"> </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li> <a class="dropdown-trigger" href="#1" data-target="dropdown1">Organization<i class="material-icons right"> arrow_drop_down</i></a> </li>
                     <li> <a href="../HTML/Contact.html"> Contact </a> </li>
@@ -37,6 +38,13 @@
             </div>
         </nav>
 
+        <ul class="sidenav" id="mobile-demo">
+            <li> <a href="#!"> About Us </a> </li>
+            <li> <a href="#!"> Our Kids </a></li>
+            <li> <a href="../HTML/Contact.html"> Contact </a> </li>
+            <li> <a href="../HTML/Donate.html"> Donate </a></li>
+          </ul>
+
         <script src="/JS/jQuery.min.js"></script>
 
          <script>
@@ -45,6 +53,8 @@
                       coverTrigger: false,
                      hover: true
                  })
+
+                 $('.sidenav').sidenav();
              })
        </script>
     
