@@ -53,18 +53,51 @@
 
     <body>
 
-        
+
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img src="/IMAGES/ZanmiBeniPicture1.JPG"> </a>
+            <a class="carousel-item" href="#two!"><img src="/IMAGES/ZanmiBeniPicture2.JPG"> </a>
+            <a class="carousel-item" href="#three!"><img src="/IMAGES/ZanmiBeniPicture3.JPG"> </a>
+            <a class="carousel-item" href="#four!"><img src="/IMAGES/ZanmiBeniPicture4.JPG"> </a>
+            <a class="carousel-item" href="#five!"><img src="/IMAGES/ZanmiBeniPicture5.JPG"> </a>
+          </div>
+              
+
+
+
+
+
+
+        <ul class="sidenav" id="mobile-demo">
+            <li> <a href="#!"> About Us </a> </li>
+            <li> <a href="#!"> Our Kids </a></li>
+            <li> <a href="../HTML/Contact.html"> Contact </a> </li>
+            <li> <a href="../HTML/Donate.html"> Donate </a></li>
+          </ul>
 
         <script src="/JS/jQuery.min.js"></script>
 
          <script>
              $(function(){
+
+                // Dropdown Menu JavaScript
                   $('.dropdown-trigger').dropdown({
                       coverTrigger: false,
                      hover: true
                  })
 
+
+                 // Side Nav for mobile view
                  $('.sidenav').sidenav();
+
+
+                // Carousel JavaScript
+                 $('.carousel').carousel({
+
+                    fullWidth: true,
+                    indicators: true
+                    
+                 });
              })
        </script>
     
