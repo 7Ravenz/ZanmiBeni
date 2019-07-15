@@ -76,17 +76,17 @@
 
     <body>
 
-
-        <div class="carousel carousel-slider">
-            <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-4">Im a Button</a>
+      
+        <div class="carousel carousel-slider center">
+          <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-4">Im a Button</a>
             </div>
-            <a class="carousel-item" href="#one!"><img src="../IMAGES/Homepage1.png"> </a>
-            <a class="carousel-item" href="#two!"><img src="../IMAGES/Homepage2.png"> </a>
-            <a class="carousel-item" href="#three!"><img src="../IMAGES/Homepage3.png"> </a>
-            <a class="carousel-item" href="#four!"><img src="../IMAGES/Homepage4.png"> </a>
-          </div>
-              
+          <a class="carousel-item" href="#one!"><img src="../IMAGES/Homepage1.png" width="500"> </a>
+          <a class="carousel-item" href="#two!"><img src="../IMAGES/Homepage2.png" width="500"> </a>
+          <a class="carousel-item" href="#three!"><img src="../IMAGES/Homepage3.png" width="500"> </a>
+          <a class="carousel-item" href="#four!"><img src="../IMAGES/Homepage4.png" width="500"> </a>
+        </div>
+         
         <div class="row">
 
           <!-- COLUMN 1 -->
@@ -127,7 +127,7 @@
                     padding: 20,
                     fullWidth: true,
                     indicators: true,
-                    duration: 300
+                    duration: 500
                    
                  });
                  
@@ -135,10 +135,10 @@
             function autoplay() {
                 $('.carousel').carousel('next');
                     
-                    setTimeout(autoplay, 4000);
+                    setTimeout(autoplay, 5000);
                     
                     }    
-                    setTimeout(autoplay, 4000);
+                    setTimeout(autoplay, 5000);
                  })
 
 
