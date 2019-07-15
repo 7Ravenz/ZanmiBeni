@@ -12,8 +12,10 @@
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+        <script src="../JS/BasicFunctions.js"></script>
         
+       
+
     </head>
 
 
@@ -24,7 +26,7 @@
   <title>Zanmi Beni</title>
 
 
- 
+   
 
     <!-- Navigation Bar -->
     <div class="navbar-fixed">
@@ -54,14 +56,24 @@
                                <span class="en" lang="en"> About Us </span>
                                <span class="fr" lang="fr"> A Propos </span>
 
-                       </li>
+                             </a> 
+                      </li>
                                
-                       <li> <a href="OurKids.html"> Our Kids </a></li>
+                       <li> <a href="OurKids.html"> 
+                          <span class="en" lang="en"> Our Kids </span>
+                          <span class="fr" lang="fr"> Nos enfants </span>  
+                            </a>
+                      </li>
                    </ul>
                   
                <li> <a href="../HTML/Contact.html"> Contact </a> </li>
 
-                <li> <a href="../HTML/Donate.html"> Donate </a></li>
+                <li> <a href="../HTML/Donate.html"> 
+                        <span class="en" lang="en"> Donation </span>
+                        <span class="fr" lang="fr"> Faire un don </span>   
+                           
+                     </a>
+                </li>
 
            </ul>
        </div>
@@ -76,10 +88,31 @@
                     </div>
                     <a href="index.html"><img src="../IMAGES/ZanmiBeni-HEADER-LOGO.jpg" height="100"></a>
                  </div></li>
-       <li> <a href="#!" class="waves-effect"> About Us </a> </li>
-       <li> <a href="OurKids.html" class="waves-effect"> Our Kids </a></li>
+       <li> <a href="#!" class="waves-effect">  
+            
+            <span class="en" lang="en"> About Us </span>
+            <span class="fr" lang="fr"> A Propos </span>
+            
+            </a> 
+       </li>
+       
+       <li> <a href="OurKids.html" class="waves-effect"> 
+         
+            <span class="en" lang="en"> Our Kids </span>
+            <span class="fr" lang="fr"> Nos enfants </span>  
+           
+            </a>
+       </li>
+      
        <li> <a href="Contact.html" class="waves-effect"> Contact </a> </li>
-        <li> <a href="Donate.html" class="waves-effect"> Donate </a></li>
+        
+       <li> <a href="Donate.html" class="waves-effect"> 
+
+            <span class="en" lang="en"> Donation </span>
+            <span class="fr" lang="fr"> Faire un don </span>   
+       
+            </a>
+        </li>
      </ul>
   
   </header>
@@ -103,7 +136,12 @@
 
           <!-- COLUMN 1 -->
           <div class="column">
-              <h1>About Us</h1>
+              <h1>
+                
+                  <span class="en" lang="en"> About Us </span>
+                  <span class="fr" lang="fr"> A Propos </span>  
+                
+              </h1>
                 <p class="info">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ducimus aperiam porro iure ratione recusandae distinctio aut magni animi, voluptatum dolorum voluptatibus tenetur, quis in molestias sed soluta laudantium odio saepe atque dicta. Asperiores corrupti quasi iusto officia saepe ea quas at recusandae quos quia sint laudantium ex doloremque, commodi quibusdam veritatis cum mollitia nesciunt eius consectetur. Maiores accusantium in quibusdam, perferendis ab sapiente id deleniti saepe quam, hic eveniet modi. Suscipit eligendi alias rerum ullam atque, possimus ipsum saepe deleniti totam aliquid cupiditate reiciendis earum aut autem magni ut corrupti. Obcaecati voluptatem cum expedita beatae quasi. Aut, velit? Optio!
                 </p>
@@ -121,6 +159,9 @@
         <script src="../JS/jQuery.min.js"></script>
 
          <script>
+
+
+             
              $(function(){
               
              
@@ -147,19 +188,7 @@
                     duration: 300
                    
                  });
-                 
-                  // make the page english
-              changeLanguage("en"); 
-
-// enable french button
-$("#French_btn").on("click", function() {
-changeLanguage("fr");
-});
-
-// enable english button
-$("#English_btn").on("click", function() {
-changeLanguage("en");
-});
+                
                   
             function autoplay() {
                 $('.carousel').carousel('next');
@@ -170,35 +199,51 @@ changeLanguage("en");
                     setTimeout(autoplay, 4000);
                  })
 
+ 
+            // make the page english
+            changeLanguage("en"); 
+
+
+           // enable french button
+           $("#French_btn").on("click", function() {
+           changeLanguage("fr");
+           });
+
+           // enable english button
+           $("#English_btn").on("click", function() {
+           changeLanguage("en");
+           });
+
 
        </script>
     
-        <!-- JavaScript at end of body for optimized loading -->
-        <script type="text/javascript" src="js/materialize.min.js"></script>
       
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-        <script src="JS/BasicFunctions.js"></script>
-
-    </body>
-
-    <footer class="page-footer blue">
+ 
+ 
+ 
+        <footer class="page-footer blue">
             <div class="container">
               <div class="row">
                 <div class="col 16 s6">
-                    <h5 class="white-text"><b>CONTACT US</b> </h5>
+                    <h5 class="white-text"><b>
+                        <span class="en" lang="en"> CONTACT US  </span> 
+                        <span class="fr" lang="fr">  CONTACTEZ NOUS </span>
+ 
+                      </b>
+                     </h5>
 
 
                     <p class="grey-text text-lighten-4">
-                      
-                      <span class="en" lang="en"> For more information about The Zanmi Beni Foundation, you can follow us on </span>
+                        
+                      <span class="en" lang="en"> For more information about The Zanmi Beni Foundation, you can follow us on </span> 
                       <span class="fr" lang="fr"> Pour plus d'informations sur la Fondation Zanmi Beni, vous pouvez nous suivre sur </span>
 
                     <a href="#" class="link"> Facebook </a> 
+                      
                     
-                    <span class="en" lang="en"> and </span>
+                    <span class="en" lang="en"> and </span> 
                     <span class="fr" lang="fr"> et </span>
+                    
 
 
                     <a href="#" class="link"> Twitter </a> </p>
@@ -223,4 +268,19 @@ changeLanguage("en");
 
            
           </footer>
+
+
+  <!-- JavaScript at end of body for optimized loading -->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  
+
+
+
+    </body>
+
+   
 </html>

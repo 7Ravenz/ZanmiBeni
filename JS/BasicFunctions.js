@@ -2,14 +2,14 @@ var changeLanguage = function(lang) {
     $(".en").hide();
     $(".fr").hide();
 
-    $("#id_of_french_button").hide();
-    $("#id_of_english_button").hide();
+    $("#French_btn").hide();
+    $("#English_btn").hide();
 
     if(lang == "en") {
         $(".en").show();
-        $("#id_of_french_button").show();
+        $("#French_btn").show();
     } else if(lang == "fr") {
         $(".fr").show();
-        $("#id_of_english_button").show();
+        $("#English_btn").show();
     }
 };
