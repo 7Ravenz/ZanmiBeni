@@ -23,12 +23,19 @@
   
   <title>Zanmi Beni</title>
 
+
+ 
+
     <!-- Navigation Bar -->
     <div class="navbar-fixed">
       <nav> 
        <!-- Top Border -->
         <div class="nav-wrapper blue">
           
+            <a class="btn waves-effect white grey-text darken-text-4 " id="English_btn"> English </a>
+            <a class="btn waves-effect white grey-text darken-text-4" id="French_btn"> French </a>
+          
+
            <!-- MOBILE NAVBAR -->
            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           
@@ -42,9 +49,13 @@
                <li class="active"> <a class="dropdown-trigger" href="#1" data-target="dropdown1">Organization<i class="material-icons right"> arrow_drop_down</i></a> </li>
                    <ul id="dropdown1" class="dropdown-content">
                        <li> <a href="#!"> 
-                               <span lang="en" class="en">About Us</span>
-                                <br>
-                                <span lang="fr" class="fr">A Propos</span> </a> </li>
+                               
+
+                               <span class="en" lang="en"> About Us </span>
+                               <span class="fr" lang="fr"> A Propos </span>
+
+                       </li>
+                               
                        <li> <a href="OurKids.html"> Our Kids </a></li>
                    </ul>
                   
@@ -77,6 +88,7 @@
     <body>
 
 
+         
         <div class="carousel carousel-slider">
             <div class="carousel-fixed-item center">
                 <a class="btn waves-effect white grey-text darken-text-4">Im a Button</a>
@@ -111,6 +123,11 @@
 
          <script>
              $(function(){
+              
+             
+              
+
+               
 
                 // Dropdown Menu JavaScript
                   $('.dropdown-trigger').dropdown({
@@ -132,6 +149,18 @@
                    
                  });
                  
+                  // make the page english
+              changeLanguage("en"); 
+
+// enable french button
+$("#French_btn").on("click", function() {
+changeLanguage("fr");
+});
+
+// enable english button
+$("#English_btn").on("click", function() {
+changeLanguage("en");
+});
                   
             function autoplay() {
                 $('.carousel').carousel('next');
@@ -151,6 +180,8 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+        <script src="JS/BasicFunctions.js"></script>
+
     </body>
 
     <footer class="page-footer blue">
@@ -158,8 +189,19 @@
               <div class="row">
                 <div class="col 16 s6">
                     <h5 class="white-text"><b>CONTACT US</b> </h5>
-                    <p class="grey-text text-lighten-4">For more information about The Zanmi Beni Foundation, you can follow us on 
-                    <a href="#" class="link"> Facebook </a> and
+
+
+                    <p class="grey-text text-lighten-4">
+                      
+                      <span class="en" lang="en"> For more information about The Zanmi Beni Foundation, you can follow us on </span>
+                      <span class="fr" lang="fr"> Pour plus d'informations sur la Fondation Zanmi Beni, vous pouvez nous suivre sur </span>
+
+                    <a href="#" class="link"> Facebook </a> 
+                    
+                    <span class="en" lang="en"> and </span>
+                    <span class="fr" lang="fr"> et </span>
+
+
                     <a href="#" class="link"> Twitter </a> </p>
                 </div>
                 <div class="col l4 offset-l2 s12">
@@ -179,5 +221,7 @@
               © 2019 The Zanmi Beni Foundation. All rights reserved.
               </div>
             </div>
+
+           
           </footer>
 </html>
