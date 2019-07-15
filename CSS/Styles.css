@@ -6,3 +6,18 @@ p.info{
 h1{
   text-align: center;
 }
+
+a.link{
+  color: rgb(0, 0, 146);
+  font-weight: bold;
+}
+
+a.link:hover{
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
