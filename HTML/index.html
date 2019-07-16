@@ -17,16 +17,10 @@
        
 
     </head>
-
-
-
-
+    
 <header>
   
   <title>Zanmi Beni</title>
-
-
-   
 
     <!-- Navigation Bar -->
     <div class="navbar-fixed">
@@ -35,8 +29,7 @@
         <div class="nav-wrapper blue">
           
             <a class="btn waves-effect white grey-text darken-text-4 " id="English_btn"> English </a>
-            <a class="btn waves-effect white grey-text darken-text-4" id="French_btn"> French </a>
-          
+            <a class="btn waves-effect white grey-text darken-text-4" id="French_btn"> Français </a>
 
            <!-- MOBILE NAVBAR -->
            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -51,11 +44,8 @@
                <li class="active"> <a class="dropdown-trigger" href="#1" data-target="dropdown1">Organization<i class="material-icons right"> arrow_drop_down</i></a> </li>
                    <ul id="dropdown1" class="dropdown-content">
                        <li> <a href="#!"> 
-                               
-
                                <span class="en" lang="en"> About Us </span>
                                <span class="fr" lang="fr"> A Propos </span>
-
                              </a> 
                       </li>
                                
@@ -123,7 +113,7 @@
       
         <div class="carousel carousel-slider center">
           <div class="carousel-fixed-item center">
-              <a class="btn waves-effect white grey-text darken-text-4">Im a Button</a>
+              <!-- <a class="btn waves-effect white grey-text darken-text-4">Im a Button</a> -->
             </div>
           <a class="carousel-item" href="#one!"><img src="../IMAGES/Homepage1.png" width="500"> </a>
           <a class="carousel-item" href="#two!"><img src="../IMAGES/Homepage2.png" width="500"> </a>
@@ -131,10 +121,12 @@
           <a class="carousel-item" href="#four!"><img src="../IMAGES/Homepage4.png" width="500"> </a>
         </div>
          
+        
+
         <div class="row">
 
           <!-- COLUMN 1 -->
-          <div class="column">
+          <div class="col m12 l6">
               <h1>
                 
                   <span class="en" lang="en"> About Us </span>
@@ -147,12 +139,16 @@
           </div>
 
           <!-- COLUMN 2 -->
-          <div class="column">
+          <div class="col m12 l6">
               <h1>COLUMN 2</h1>
               <p class="info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ducimus aperiam porro iure ratione recusandae distinctio aut magni animi, voluptatum dolorum voluptatibus tenetur, quis in molestias sed soluta laudantium odio saepe atque dicta. Asperiores corrupti quasi iusto officia saepe ea quas at recusandae quos quia sint laudantium ex doloremque, commodi quibusdam veritatis cum mollitia nesciunt eius consectetur. Maiores accusantium in quibusdam, perferendis ab sapiente id deleniti saepe quam, hic eveniet modi. Suscipit eligendi alias rerum ullam atque, possimus ipsum saepe deleniti totam aliquid cupiditate reiciendis earum aut autem magni ut corrupti. Obcaecati voluptatem cum expedita beatae quasi. Aut, velit? Optio!
               </p>
           </div>
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="../IMAGES/ZanmiBeniPicture1.JPG"></div>
         </div>
 
         <script src="../JS/jQuery.min.js"></script>
@@ -163,21 +159,17 @@
              
              $(function(){
               
-             
-              
-
-               
-
-                // Dropdown Menu JavaScript
+              // Dropdown Menu JavaScript
                   $('.dropdown-trigger').dropdown({
                       coverTrigger: false,
                      hover: true
                  });
 
-
                  // Side Nav for mobile view
                  $('.sidenav').sidenav();
 
+                 // Paralax Images
+                 $('.parallax').parallax();
 
                 // Carousel JavaScript
                  $('.carousel').carousel({
@@ -220,53 +212,7 @@
  
  
  
-        <footer class="page-footer blue">
-            <div class="container">
-              <div class="row">
-                <div class="col 16 s6">
-                    <h5 class="white-text"><b>
-                        <span class="en" lang="en"> CONTACT US  </span> 
-                        <span class="fr" lang="fr">  CONTACTEZ NOUS </span>
- 
-                      </b>
-                     </h5>
-
-
-                    <p class="grey-text text-lighten-4">
-                        
-                      <span class="en" lang="en"> For more information about The Zanmi Beni Foundation, you can follow us on </span> 
-                      <span class="fr" lang="fr"> Pour plus d'informations sur la Fondation Zanmi Beni, vous pouvez nous suivre sur </span>
-
-                    <a href="#" class="link"> Facebook </a> 
-                      
-                    
-                    <span class="en" lang="en"> and </span> 
-                    <span class="fr" lang="fr"> et </span>
-                    
-
-
-                    <a href="#" class="link"> Twitter </a> </p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                  <!-- <h5 class="white-text">Links</h5>
-                  <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                  </ul> -->
-                </div>
-              </div>
-            </div>
-            
-            <div class="footer-copyright blue darken-4">
-              <div class="container">
-              © 2019 The Zanmi Beni Foundation. All rights reserved.
-              </div>
-            </div>
-
-           
-          </footer>
+        
 
 
   <!-- JavaScript at end of body for optimized loading -->
@@ -275,11 +221,54 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-  
+  </body>
+
+  <footer class="page-footer blue">
+        <div class="container">
+          <div class="row">
+            <div class="col 16 s6">
+                <h5 class="white-text"><b>
+                    <span class="en" lang="en"> CONTACT US  </span> 
+                    <span class="fr" lang="fr">  CONTACTEZ NOUS </span>
+
+                  </b>
+                 </h5>
 
 
+                <p class="grey-text text-lighten-4">
+                    
+                  <span class="en" lang="en"> For more information about The Zanmi Beni Foundation, you can follow us on </span> 
+                  <span class="fr" lang="fr"> Pour plus d'informations sur la Fondation Zanmi Beni, vous pouvez nous suivre sur </span>
 
-    </body>
+                <a href="#" class="link"> Facebook </a> 
+                  
+                
+                <span class="en" lang="en"> and </span> 
+                <span class="fr" lang="fr"> et </span>
+                
 
-   
+
+                <a href="#" class="link"> Twitter </a> </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <!-- <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-copyright blue darken-4">
+          <div class="container">
+          © 2019 The Zanmi Beni Foundation. All rights reserved.
+          </div>
+        </div>
+
+       
+      </footer>
+
 </html>
