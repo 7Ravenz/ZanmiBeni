@@ -16,11 +16,13 @@
       
       <link rel="stylesheet" href="../CSS/Styles.css">
 
+      <script src="../JS/BasicFunctions.js"></script>
+
     </head>
 
     <header>
   
-            <title>Zanmi Beni</title>
+            <title>Our Kids</title>
           
               <!-- Navigation Bar -->
               <div class="navbar-fixed">
@@ -133,14 +135,19 @@
 
     <body>
 
-      <h1>Meet the Kids</h1>
+      <h1>
+          <span class="en" lang="en"> Meet the Kids  </span>
+          <span class="fr" lang="fr"> Rencontrez les Enfants </span>
+
+      </h1>
       <div class="row">
 
         <div class="col s12 m6 l4">
           <div class="card">
             <div class="card-image">
               <img src="../IMAGES/Gallery7.JPG">
-              <span class="card-title">Child Name</span>
+              <span class="card-title" > Child Name </span>
+               
               <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">link</i></a>
             </div>
             <div class="card-content">
@@ -230,7 +237,18 @@
                  });
 
 
-                 
+                  // make the page english
+                  changeLanguage("en"); 
+
+                  // enable french button
+                  $("#French_btn").on("click", function() {
+                  changeLanguage("fr");
+                  });
+
+                  // enable english button
+                  $("#English_btn").on("click", function() {
+                  changeLanguage("en");
+                  });
                  
                  })
 
@@ -243,19 +261,28 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    </body>
-
-
     <!-- The Footer -->
     <footer class="page-footer red">
             <div class="container">
               <div class="row">
                 <div class="col 16 s6">
-                    <h5 class="white-text"><b>CONTACT US</b> </h5>
-                    <p class="grey-text text-lighten-4">For more information about The Zanmi Beni Foundation, you can follow us on 
-                    <a href="#" class="blue-text text-darken-4"> <b>Facebook</b> </a> and 
-                    <a href="#" class="blue-text text-darken-4"> <b>Twitter</b> </a> </p>
-                </div>
+                  <h5 class="white-text"><b>
+                    <span class="en" lang="en"> CONTACT US  </span> 
+                    <span class="fr" lang="fr">  CONTACTEZ NOUS </span>
+                  </b>
+                  </h5>
+                <p class="grey-text text-lighten-4">
+                    
+                  <span class="en" lang="en"> For more information about The Zanmi Beni Foundation, you can follow us on </span> 
+                  <span class="fr" lang="fr"> Pour plus d'informations sur la Fondation Zanmi Beni, vous pouvez nous suivre sur </span>
+
+                <a href="#" class="link"> Facebook </a>
+                
+                <span class="en" lang="en"> and </span> 
+                <span class="fr" lang="fr"> et </span>
+                
+                <a href="#" class="link"> Twitter </a> </p>
+            </div>
                 <div class="col l4 offset-l2 s12">
                   <!-- <h5 class="white-text">Links</h5>
                   <ul>
@@ -274,4 +301,7 @@
               </div>
             </div>
           </footer>
+    </body>
+
+
 </html>
