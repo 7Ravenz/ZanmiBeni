@@ -1,5 +1,5 @@
 var snip_footer_html = `
-<footer class="page-footer red">
+<footer class="page-footer blue">
 <div class="container">
     <div class="row">
         <div class="col 16 s6">
@@ -23,7 +23,7 @@ var snip_footer_html = `
     </div>
 </div>
 
-<div class="footer-copyright red darken-4">
+<div class="footer-copyright blue darken-4">
     <div class="container">
         © 2019 The Zanmi Beni Foundation. All rights reserved.
     </div>
