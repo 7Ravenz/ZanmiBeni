@@ -1,4 +1,4 @@
-var snip_header_html = '<header>Your header HTML code</header>'  
+var snip_header_html = '<header> <h1> this is a test 1 </h1> </header>'; 
 
 
 // call this from the page after including snip_header_html.js
