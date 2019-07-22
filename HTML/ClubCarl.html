@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-         
+        
+      <title>Club Carl</title>
       <link rel="stylesheet" href="../CSS/Styles.css">
 
         <!--Import Google Icon Font-->
@@ -21,88 +22,16 @@
 
     </head>
     
-<header>
+ 
   
-  <title>Club Carl</title>
+ 
 
-    <!-- Navigation Bar -->
-    <div class="navbar-fixed">
-      <nav> 
-       <!-- Top Border -->
-        <div class="nav-wrapper red">
-          
-            <a class="btn waves-effect white grey-text darken-text-4 " id="English_btn"> English </a>
-            <a class="btn waves-effect white grey-text darken-text-4" id="French_btn"> Français </a>
+    
 
-           <!-- MOBILE NAVBAR -->
-           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          
-            <!-- DESKTOP NAVBAR -->
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-              
-                 <!-- Logo Button -->
-                <li> <a href="index.html"> <img src="../IMAGES/ZanmiBeni-HEADER-LOGO.jpg" height="100"> </a> </li>
-               
-                <li> <a href="#!"> 
-                  <span class="en" lang="en"> Our Story </span>
-                  <span class="fr" lang="fr"> Notre Histoire </span>
-                  </a>
-                </li>
-                               
-                <li> <a href="OurKids.html"> 
-                  <span class="en" lang="en"> Meet the Kids </span>
-                  <span class="fr" lang="fr"> Rencontrez les Enfants </span>
-                  </a>
-                </li>
-
-                <li> <a href="../HTML/Donate.html"> 
-                  <span class="en" lang="en"> Donation </span>
-                  <span class="fr" lang="fr"> Faire un don </span> 
-                  </a>
-                </li>
-           </ul>
-       </div>
-    </nav>
-    </div>
-
-    <!-- Side navigation bar for mobile menu -->
-    <ul class="sidenav" id="mobile-demo">
-           <li><div class="user-view">
-                   <div class="background">
-                      <img src="../IMAGES/ZanmiBeniPicture1.JPG">
-                    </div>
-                    <a href="index.html"><img src="../IMAGES/ZanmiBeni-HEADER-LOGO.jpg" height="100"></a>
-                 </div></li>
-       <li> <a href="#!" class="waves-effect">  
-            
-            <span class="en" lang="en"> About Us </span>
-            <span class="fr" lang="fr"> A Propos </span>
-            
-            </a> 
-       </li>
-       
-       <li> <a href="OurKids.html" class="waves-effect"> 
-         
-            <span class="en" lang="en"> Our Kids </span>
-            <span class="fr" lang="fr"> Nos enfants </span>  
-           
-            </a>
-       </li>
-      
-       <li> <a href="Contact.html" class="waves-effect"> Contact </a> </li>
-        
-       <li> <a href="Donate.html" class="waves-effect"> 
-
-            <span class="en" lang="en"> Donation </span>
-            <span class="fr" lang="fr"> Faire un don </span>   
-       
-            </a>
-        </li>
-     </ul>
-  
-  </header>
-
-  <body>
+  <body> 
+    
+    <!-- call the header code from js file -->
+    <div id="header_target"></div>
 
   <footer class="page-footer red">
     <div class="container">
@@ -149,10 +78,13 @@
   </footer>
 
   <script src="../JS/jQuery.min.js"></script>
+  <script src="../JS/snip_header_html.js"></script>
 
    <script>
        
        $(function(){
+
+        init_header();
         
         // Dropdown Menu JavaScript
             $('.dropdown-trigger').dropdown({
@@ -183,8 +115,8 @@
               setTimeout(autoplay, 5000);
            })
 
-      // make the page english
-      changeLanguage("en"); 
+     // make the page english
+     initLanguage();
 
      // enable french button
      $("#French_btn").on("click", function() {
