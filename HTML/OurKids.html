@@ -25,6 +25,9 @@
 
 <body>
 
+  <!-- call the headere code from js file -->
+    <!-- <div id="header_target"></div> -->
+
   <header>
 
     <!-- Navigation Bar -->
@@ -263,9 +266,12 @@
 </footer>
 
     <script src="/JS/jQuery.min.js"></script>
+    <script src="/JS/snip_header_html.js"></script>
 
     <script>
         $(function() {
+
+            init_header();
 
             // Dropdown Menu JavaScript
             $('.dropdown-trigger').dropdown({
