@@ -2,10 +2,10 @@ var snip_footer_html = `
 <footer class="page-footer blue">
 <div class="container">
     <div class="row">
-        <div class="col 16 s6">
+        <div class="col s12">
             <h5 class="white-text"><b>
-              <span class="en" lang="en"> CONTACT US  </span> 
-              <span class="fr" lang="fr">  CONTACTEZ NOUS </span>
+              <span class="en" lang="en"> CONTACT US </span> 
+              <span class="fr" lang="fr"> CONTACTEZ NOUS </span>
             </b>
             </h5>
             <p class="grey-text text-lighten-4">
@@ -32,7 +32,6 @@ var snip_footer_html = `
 </footer>
 
 `; 
-
 
 // call this from the page after including snip_header_html.js
 var init_footer = function() {
