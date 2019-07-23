@@ -62,6 +62,14 @@ var snip_header_html = `
 
                 <li>
                     <a href="#">
+                        <span class="en" lang="en"> Tour Our Campus </span>
+                        <span class="fr" lang="fr"> Visitez Notre Campus </span>
+                       
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
                         <span class="en" lang="en"> Donation </span>
                         <span class="fr" lang="fr"> Faire un don </span>
                     </a>
@@ -113,6 +121,13 @@ var snip_header_html = `
         <a href="#">
             <span class="en" lang="en"> Club Carl </span>
             <span class="fr" lang="fr"> Club Carl </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="#">
+            <span class="en" lang="en"> Tour Our Campus </span>
+            <span class="fr" lang="fr"> Visitez Notre Campus </span>
         </a>
     </li>
 
