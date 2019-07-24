@@ -1,5 +1,5 @@
 var snip_footer_html = `
-<footer class="page-footer red">
+<footer class="page-footer red darken">
 <div class="container">
     <div class="row">
         <div class="col s12">

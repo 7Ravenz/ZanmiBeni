@@ -3,13 +3,18 @@ p.info{
   padding-right: 25px;
   text-indent: 25px;
 }
+
 h1{
   text-align: center;
+  color: rgb(88, 88, 88);
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 a.link{
-  color: rgb(7, 0, 112);
+  color: rgb(112, 0, 0);
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 a.link:hover{

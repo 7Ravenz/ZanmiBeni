@@ -84,7 +84,7 @@ var snip_header_html = `
     <li>
         <div class="user-view">
             <div class="background">
-                <img src="../IMAGES/ZanmiBeniPicture1.JPG">
+                <img src="../IMAGES/Homepage3.png" height="150">
             </div>
             <a href="../index.html"><img src="../IMAGES/ZanmiBeni-HEADER-LOGO.jpg" height="100"></a>
         </div>
