@@ -31,3 +31,11 @@ p.childInfo {
   font-style: italic;
   color: gray;
 }
+
+.button {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
