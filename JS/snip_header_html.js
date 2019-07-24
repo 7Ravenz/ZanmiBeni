@@ -5,7 +5,7 @@ var snip_header_html = `
 <div class="navbar-fixed">
     <nav>
         <!-- Top Border -->
-        <div class="nav-wrapper blue">
+        <div class="nav-wrapper red">
 
             <a class="btn waves-effect white grey-text darken-text-4 " id="English_btn"> English </a>
             <a class="btn waves-effect white grey-text darken-text-4" id="French_btn"> Français </a>
