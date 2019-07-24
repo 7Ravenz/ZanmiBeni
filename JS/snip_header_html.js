@@ -7,8 +7,10 @@ var snip_header_html = `
         <!-- Top Border -->
         <div class="nav-wrapper red">
 
-            <a class="btn waves-effect white grey-text darken-text-4 " id="English_btn"> English </a>
-            <a class="btn waves-effect white grey-text darken-text-4" id="French_btn"> Français </a>
+            <a class="btn waves-effect white grey-text darken-text-4">
+            <span class="en" lang="en"> English </span>
+            <span class="fr" lang="fr"> Français </span>
+            </a>
 
             <!-- MOBILE NAVBAR -->
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
