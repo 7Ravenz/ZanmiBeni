@@ -21,3 +21,7 @@ a.link:hover{
   float: left;
   width: 50%;
 }
+
+p.childInfo {
+  font-style: italic;
+}
