@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Tour Our Campus</title>
+
+    <link rel="stylesheet" href="../CSS/Styles.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Picture that shows on the tab -->
+    <link rel="Shortcut icon" href="/IMAGES/ZanmiBeni-HEADER-LOGO.jpg">
+
+</head>
+
+<body>
+
+    <!-- call the header code from js file -->
+    <div id="header_target"></div>
+
+
+
+
+    
+    <!-- The Footer -->
+    <div id="footer_target"></div>
+
+    <script src="../JS/jQuery.min.js"></script>
+    <script src="../JS/BasicFunctions.js"></script>
+    <script src="../JS/snip_header_html.js"></script>
+    <script src="../JS/snip_footer_html.js"></script>
+
+    <script>
+        $(function() {
+
+            init_header();
+            init_footer();
+
+            // Dropdown Menu JavaScript
+            $('.dropdown-trigger').dropdown({
+                coverTrigger: false,
+                hover: true
+            });
+
+            // Side Nav for mobile view
+            $('.sidenav').sidenav();
+
+            // Paralax Images
+            $('.parallax').parallax();
+
+            // Carousel JavaScript
+            $('.carousel').carousel({
+                padding: 20,
+                fullWidth: true,
+                indicators: true,
+                duration: 500
+            });
+
+            function autoplay() {
+                $('.carousel').carousel('next');
+
+                setTimeout(autoplay, 5000);
+
+            }
+            setTimeout(autoplay, 5000);
+
+            // make the page english
+            initLanguage();
+
+            // enable french button
+            $("#French_btn").on("click", function() {
+                changeLanguage("fr");
+            });
+
+            // enable english button
+            $("#English_btn").on("click", function() {
+                changeLanguage("en");
+            });
+        })
+
+    </script>
+
+    <!-- JavaScript at end of body for optimized loading -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
