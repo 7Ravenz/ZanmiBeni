@@ -10,12 +10,12 @@ var changeLanguage = function(lang) {
     if(lang == "en") {
         $(".en").show();
         $("#French_btn").show();
-        $("#ClubCarlFrench_btn").show();
+        $("#ClubCarlEnglish_btn").show();
         localStorage.setItem('language', 'en');
     } else if(lang == "fr") {
         $(".fr").show();
         $("#English_btn").show();
-        $("#ClubCarlEnglish_btn").show();
+        $("#ClubCarlFrench_btn").show();
         localStorage.setItem('language', 'fr');
     }
 };
