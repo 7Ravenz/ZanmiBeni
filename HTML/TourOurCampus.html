@@ -75,14 +75,9 @@
             // make the page english
             initLanguage();
 
-            // enable french button
-            $("#French_btn").on("click", function() {
-                changeLanguage("fr");
-            });
-
-            // enable english button
-            $("#English_btn").on("click", function() {
-                changeLanguage("en");
+            // switch language
+            $("#langButton").on("click", function() {
+                switchLanguage();
             });
         })
 

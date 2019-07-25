@@ -1,7 +1,6 @@
 var changeLanguage = function(lang) {
     $(".en").hide();
     $(".fr").hide();
-
     
     if(lang == "en") {
         $(".en").show();
@@ -17,4 +16,11 @@ var initLanguage = function(){
         changeLanguage('en')
     else
         changeLanguage(localStorage.getItem('language'))
+}
+
+var switchLanguage = function() {
+    if (localStorage.getItem('language') == 'en')
+        changeLanguage('fr')
+    else
+        changeLanguage('en')
 }
