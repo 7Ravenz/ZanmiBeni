@@ -207,6 +207,8 @@
 
     </div>
 
+    <button onclick="topFunction()" id="ScrollButton" title="Go to top"><i class="material-icons">arrow_drop_up</i> </button>
+
     <!-- The Footer -->
     <div id="footer_target"></div>
 
@@ -214,10 +216,14 @@
     <script src="../JS/BasicFunctions.js"></script>
     <script src="../JS/snip_header_html.js"></script>
     <script src="../JS/snip_footer_html.js"></script>
+    <script src="../JS/ScrollButton.js"></script>
 
     <script>
 
         $(function() {
+
+             
+
             
             init_header();
             init_footer();
@@ -265,7 +271,7 @@
             $("#English_btn").on("click", function() {
                 changeLanguage("en");
             });
-
+ 
             })
 
     </script>
