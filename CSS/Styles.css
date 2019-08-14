@@ -10,6 +10,13 @@ h1{
   text-transform: uppercase;
 }
 
+h2{
+  text-align: left;
+  color: rgb(88, 88, 88);
+  padding-left: 20px;
+  
+}
+
 @media screen and (max-width:600px){
   h1 span{
       font-size: 45px;
