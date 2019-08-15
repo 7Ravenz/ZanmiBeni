@@ -27,17 +27,17 @@ var switchLanguage = function() {
 
 var kids = 
 [
-    {"imgfile":"Gallery5.JPG", "name":"Child 1",
+    {"imgfile":"EGGS.JPG", "name":"Child 1",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
-    {"imgfile":"Gallery6.JPG", "name":"",
-    "enBio":"",
-    "frBio":""},
+    {"imgfile":"ARTS CENTER.JPG", "name":"",
+    "enBio":"english",
+    "frBio":"francais"},
 
-    {"imgfile":"Whatever.JPG", "name":"", 
-    "enBio":"", 
-    "frBio":""}
+    {"imgfile":"DORMITORY.JPG", "name":"", 
+    "enBio":"english", 
+    "frBio":"francais"}
 ];
 
 var createChildren = function()
