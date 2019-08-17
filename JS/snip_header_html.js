@@ -158,7 +158,7 @@ var snip_header_html = `
 </ul>
 
 </header>
-`; 
+`;
 
 
 // call this from the page after including snip_header_html.js
