@@ -1,19 +1,19 @@
 p.info{
-  font-size: 15px;
+  font-size: 15pt;
   padding-left: 15px;
   padding-right: 15px;
   text-indent: 25px;
+  line-height: 1.3;
+  text-align: justify;
 }
 
 p.quote{
-  padding: 20px;
+  padding: 40px;
   font-size: 25px;
   font-style: italic;
-  border: 2px solid rgb(100, 100, 100);
-  border-radius: 20px;
-  border-color: rgb(49, 49, 49);
   line-height: 1.3;
-  background-color: rgba(148, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
+  background-color: rgba(88, 88, 88, 0.1);
 }
 
 h1{
@@ -58,7 +58,6 @@ h2{
 a.link{
   color: rgb(112, 0, 0);
   font-weight: bold;
-  text-transform: capitalize;
 }
 
 a.link:hover{
