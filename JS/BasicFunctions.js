@@ -62,7 +62,7 @@ for(var i = 0 ; i < kids.length ; i++)
         </div>
     </div>
 </div>
-`;
+`
 }
 
 return htmlreturn;

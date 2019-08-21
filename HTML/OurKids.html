@@ -117,7 +117,11 @@
         </div>
     </div>
 
-    <div id="createchildren_target"></div>
+    <script>
+    $(function() {
+        createChildren();
+    })
+    </script>
 
     <button onclick="topFunction()" id="ScrollButton" title="Go to top"><i class="material-icons">arrow_drop_up</i> </button>
 
@@ -135,8 +139,6 @@
 
             init_header();
             init_footer();
-
-            $("#createchildren_target").html(createChildren());
 
             // Dropdown Menu JavaScript
             $('.dropdown-trigger').dropdown({
@@ -165,6 +167,9 @@
 
         })
     </script>
+
+    <!-- JavaScript at end of body for optimized loading -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
