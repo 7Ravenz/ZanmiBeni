@@ -59,69 +59,8 @@
 
     <!-- THE CHILDREN -->
     <div class="row">
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="../IMAGES/Gallery7.JPG">
-                    <span class="card-title"> Child Name </span>
-
-                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">attach_money</i></a>
-                </div>
-                <div class="card-content">
-                    <span class="en" lang="en"> <p class="childInfo"> Child's Bio... Some English stuff!</p> </span>
-                    <span class="fr" lang="fr"> <p class="childInfo"> Child's Bio... Des choses Françaises!</p> </span>
-                </div>
-            </div>
-        </div>
-
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="../IMAGES/Gallery8.JPG">
-                    <span class="card-title">Child Name</span>
-                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">attach_money</i></a>
-                </div>
-                <div class="card-content">
-                    <span class="en" lang="en"> <p class="childInfo"> Child's Bio... Some English stuff!</p> </span>
-                    <span class="fr" lang="fr"> <p class="childInfo"> Child's Bio... Des choses Françaises!</p> </span>
-                </div>
-            </div>
-        </div>
-
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="../IMAGES/Gallery9.JPG">
-                    <span class="card-title">Child Name</span>
-                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">attach_money</i></a>
-                </div>
-                <div class="card-content">
-                    <span class="en" lang="en"> <p class="childInfo"> Child's Bio... Some English stuff!</p> </span>
-                    <span class="fr" lang="fr"> <p class="childInfo"> Child's Bio... Des choses Françaises!</p> </span>
-                </div>
-            </div>
-        </div>
-
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="../IMAGES/Gallery10.JPG">
-                    <span class="card-title">Child Name</span>
-                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">attach_money</i></a>
-                </div>
-                <div class="card-content">
-                    <span class="en" lang="en"> <p class="childInfo"> Child's Bio... Some English stuff!</p> </span>
-                    <span class="fr" lang="fr"> <p class="childInfo"> Child's Bio... Des choses Françaises!</p> </span>
-                </div>
-            </div>
-        </div>
+        <div id="createchildren_target"></div>
     </div>
-
-    <script>
-    $(function() {
-        createChildren();
-    })
-    </script>
 
     <button onclick="topFunction()" id="ScrollButton" title="Go to top"><i class="material-icons">arrow_drop_up</i> </button>
 
@@ -140,7 +79,7 @@
             init_header();
             init_footer();
 
-            createChildren();
+            $("#createchildren_target").html( createChildren() );
 
             // Dropdown Menu JavaScript
             $('.dropdown-trigger').dropdown({
