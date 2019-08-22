@@ -135,6 +135,10 @@ var kids =
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
+    {"name":"Pascal",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
     {"name":"Pascale",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
