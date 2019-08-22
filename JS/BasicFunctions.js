@@ -27,6 +27,10 @@ var switchLanguage = function() {
 
 var kids = 
 [
+    {"name":"Alicia",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
     {"name":"Andrecia",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
@@ -55,6 +59,18 @@ var kids =
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
+    {"name":"Esmane",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
+    {"name":"Geraldine",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
+    {"name":"Gilbert",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
     {"name":"Gisele",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
@@ -71,11 +87,19 @@ var kids =
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
+    {"name":"Lovely",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
     {"name":"Marco",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
     {"name":"Marcus",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
+    {"name":"Marken",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
@@ -92,6 +116,10 @@ var kids =
     "frBio":"Child's Bio... Des choses Françaises!"},
 
     {"name":"Mishama",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
+    {"name":"Mona",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
@@ -123,6 +151,10 @@ var kids =
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
+    {"name":"Rosemarie",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
     {"name":"Rosemercie",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
@@ -135,7 +167,7 @@ var kids =
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
-    {"name":"Sebastian",
+    {"name":"Sebastien",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
@@ -148,6 +180,10 @@ var kids =
     "frBio":"Child's Bio... Des choses Françaises!"},
 
     {"name":"Stephane",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
+    {"name":"Tommy",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
