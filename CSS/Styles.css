@@ -1,3 +1,7 @@
+div.center{
+  text-align: center;
+}
+
 p.info{
   font-size: 15pt;
   padding-left: 15px;
@@ -101,4 +105,21 @@ p.childInfo {
 
 #ScrollButton:hover {
   background-color: #555;  
+}
+
+h1.TOC{
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p.TOC{
+  text-align: left;
+  font-size: 15pt;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+hr{
+  width: 90%
 }
