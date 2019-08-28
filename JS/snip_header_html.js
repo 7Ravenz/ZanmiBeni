@@ -120,14 +120,14 @@ var snip_header_html = `
     </li>
 
     <li>
-        <a href="#">
+        <a href="../HTML/ClubCarl.html">
             <span class="en" lang="en"> Club Carl </span>
             <span class="fr" lang="fr"> Club Carl </span>
         </a>
     </li>
 
     <li>
-        <a href="#">
+        <a href="../HTML/TourOurCampus.html">
             <span class="en" lang="en"> Tour Our Campus </span>
             <span class="fr" lang="fr"> Visitez Notre Campus </span>
         </a>
