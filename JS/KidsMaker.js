@@ -28,7 +28,7 @@ return htmlreturn;
 var kids = 
 [
     {"name":"Alicia",
-    "enBio":"Child's Bio... Some English stuff!",
+    "enBio":"2010-2019",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
     {"name":"Andrecia",
@@ -86,12 +86,12 @@ var kids =
     {"name":"Laurent",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
-
-    {"name":"Lucie",
+    
+    {"name":"Lovely",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
-    {"name":"Lovely",
+    {"name":"Lucie",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
