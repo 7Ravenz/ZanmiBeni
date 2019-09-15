@@ -137,34 +137,7 @@
             <a class="carousel-item" href="#one!"><img src="../IMAGES/ClubCarlBanner2.jpg" width="500"> </a>
     </div>
 
-
-    <video class="responsive-video" controls>
-        <source src="../VIDEOS/CarlHockey.MOV" type="video/mp4">
-      </video>
-
-      <video class="responsive-video" controls>
-        <source src="../VIDEOS/CarlHockey2.mov" type="video/mp4">
-      </video>
-
-      <video class="responsive-video" controls>
-        <source src="../VIDEOS/CarlPool.MOV" type="video/mp4">
-      </video>
-
-      <video class="responsive-video" controls>
-        <source src="../VIDEOS/CarlSoccer.mov" type="video/mp4">
-      </video>
-
-      <video class="responsive-video" controls>
-        <source src="../VIDEOS/CarlWalk.MOV" type="video/mp4">
-      </video>
-
-      <video class="responsive-video" controls>
-        <source src="../VIDEOS/CarlWalk2.MOV" type="video/mp4">
-      </video>
-
-      <video class="responsive-video" controls>
-        <source src="../VIDEOS/CARLMOVIE.mp4" type="video/mp4">
-      </video>
+    
 
 
     <h1>
@@ -223,6 +196,54 @@
         </a>
     </div>
 
+    <div class="row">
+      <div class="col m1 l2"></div>
+      <div class="col m10 l8">
+        <ul class="tabs">
+          <li class="tab col s2"><a class = "active" href="#test1">Slideshow</a></li>
+          <li class="tab col s2"><a href="#test2">Walking</a></li>
+          <li class="tab col s2"><a href="#test3">Pool</a></li>
+          <li class="tab col s2"><a href="#test4">Hockey</a></li>
+          <li class="tab col s2"><a href="#test5">Treadmill</a></li>
+        </ul>
+      
+      <div id="test1" class="col s12">
+          <video class="responsive-video" controls>
+              <source src="../VIDEOS/CARLMOVIE.mp4" type="video/mp4">
+            </video>
+      </div>
+      <div id="test2" class="col s12">
+          <video class="responsive-video" controls>
+              <source src="../VIDEOS/CarlWalk2.MOV" type="video/mp4">
+            </video>
+      </div>
+      <div id="test3" class="col s12">
+        <video class="responsive-video" controls>
+          <source src="../VIDEOS/CarlPool.MOV" type="video/mp4">
+        </video>
+      </div>
+      <div id="test4" class="col s12">
+          <video class="responsive-video" controls>
+              <source src="../VIDEOS/CarlHockey.MOV" type="video/mp4">
+            </video>
+      </div>
+      <div id="test5" class="col s12">
+        <video class="responsive-video" controls>
+          <source src="../VIDEOS/CarlWalk.MOV" type="video/mp4">
+        </video>
+      </div>
+      <div class="col m1 l2"></div>
+    </div>
+    </div>
+
+      
+    
+      
+
+      
+
+      
+
     <button onclick="topFunction()" id="ScrollButton" title="Go to top"><i class="material-icons">arrow_drop_up</i> </button>
 
     <!-- The Footer -->
@@ -245,6 +266,10 @@
             $('.dropdown-trigger').dropdown({
                 coverTrigger: false,
                 hover: true
+            });
+
+            $(document).ready(function(){
+            $('.tabs').tabs();
             });
 
             // Side Nav for mobile view
