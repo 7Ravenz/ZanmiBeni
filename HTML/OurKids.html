@@ -73,6 +73,7 @@
     <script src="../JS/snip_footer_html.js"></script>
     <script src="../JS/ScrollButton.js"></script>
     <script src="../JS/KidsMaker.js"></script>
+    <script src="../JS/MatchHeight.js"></script>
 
     <script>
         $(function() {
@@ -87,10 +88,8 @@
                 coverTrigger: false,
                 hover: true
             });
-
-            $(function() {
+            
 	        $('.card-content').matchHeight();
-            });
 
             // Side Nav for mobile view
             $('.sidenav').sidenav();
