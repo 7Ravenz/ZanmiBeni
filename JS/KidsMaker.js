@@ -81,7 +81,7 @@ var kids =
 
     {"name":"James",
     "enBio":"James adores school and doing his homework. When he’s older, he would like to become a math teacher in an elementary school. On top of this, he likes to play soccer with his friends at Zamni Beni. ",
-    "frBio":"James adores school and doing his homework. When he’s older, he would like to become a math teacher in an elementary school. On top of this, he likes to play soccer with his friends at Zamni Beni. "},
+    "frBio":"James adore l’école et faire ses travaux scolaires. Lorsqu’il sera grand, il aimerait devenir professeur des mathématiques pour des petits enfants. De plus, il aime jouer au football avec les autres amis de Zamni beni. "},
 
     {"name":"Laurent",
     "enBio":"Laurent loves math and wants to become a buisnessman. He loves doing school work, or playing jump rope and dominos.",
@@ -176,8 +176,8 @@ var kids =
     "frBio":"Samuel est très farfelu. Il aime bien rire et faire rire ses amis. Son activité préférée est de faire des dessins avec son ami Sébastien. Lorsqu’il sera grand, Samuel veut devenir un joueur de football professionnel. "},
 
     {"name":"Sebastien",
-    "enBio":"Child's Bio... Some English stuff!",
-    "frBio":"Child's Bio... Des choses Françaises!"},
+    "enBio":"Sebastian loves to play with his best friend Carl. His favourite school subject is math, and when he is older he wants to become a police officer.",
+    "frBio":"Sebastian adore jouer avec son meilleur ami Carl. Les mathématiques sont son sujet scolaire préféré. Lorsqu’il sera plus grand, il aimerait devenir policier. "},
 
     {"name":"Sherika",
     "enBio":"Child's Bio... Some English stuff!",
@@ -188,12 +188,12 @@ var kids =
     "frBio":"Steff rêve de devenir un grand footballeur. Il dit courir vite et aime que son équipe gagne lors des jeux de football à Zamni Beni. En ajoutant, il aime jouer aux cartes. Son côté compétitif est évident. "},
 
     {"name":"Stephane",
-    "enBio":"Child's Bio... Some English stuff!",
-    "frBio":"Child's Bio... Des choses Françaises!"},
+    "enBio":"Stéphane likes to go out of Zamni Beni, and to walk around the facility with his friend Chrisley. When he grows up, he would like to be an electrician because this job is interesting to him. He also likes to help with manual work and chores.",
+    "frBio":"Stéphane aime faire des sorties et de marcher dans l’espace de Zamni Beni avec son ami Chrisley. Plus tard, il aimerait devenir électricien parce que le métier lui parait très intéressant. Il aime aussi faire des travaux manuels et d’aider aux tâches ménagères."},
 
     {"name":"Tommy",
-    "enBio":"Stéphane likes to go out of Zamni Beni, and to walk around the facility with his friend Chrisley. When he grows up, he would like to be an electrician because this job is interesting to him. He also likes to help with manual work and chores. ",
-    "frBio":"Stéphane aime faire des sorties et de marcher dans l’espace de Zamni Beni avec son ami Chrisley. Plus tard, il aimerait devenir électricien parce que le métier lui parait très intéressant. Il aime aussi faire des travaux manuels et d’aider aux tâches ménagères. "},
+    "enBio":"SChild's Bio... Some English stuff! ",
+    "frBio":"Child's Bio... Des choses Françaises! "},
 
     {"name":"Wadley",
     "enBio":"Child's Bio... Some English stuff!",
