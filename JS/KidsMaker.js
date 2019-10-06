@@ -6,7 +6,7 @@ for(var i = 0 ; i < kids.length ; i++)
 {
     htmlreturn += 
     `
-    <div class="col s12 m4 l3">
+    <div class="col s12 m4 l3 card-mh">
     <div class="card">
         <div class="card-image">
             <img src="../KIDS/${kids[i].name}.jpg" alt="${kids[i].name} picture">
