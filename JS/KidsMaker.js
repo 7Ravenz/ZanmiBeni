@@ -51,6 +51,10 @@ var kids =
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
+    {"name":"David Moise",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
     {"name":"Davidson",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
@@ -76,6 +80,10 @@ var kids =
     "frBio":"Child's Bio... Des choses Françaises!"},
 
     {"name":"Gisele",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
+    {"name":"Isabelle",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
@@ -175,11 +183,19 @@ var kids =
     "enBio":"Samuel is super silly. He loves to laugh and to make others laugh. His favorite activity is drawing with his best friend Sébastien. When he grows up, Samuel wants to become a professional soccer player.",
     "frBio":"Samuel est très farfelu. Il aime bien rire et faire rire ses amis. Son activité préférée est de faire des dessins avec son ami Sébastien. Lorsqu’il sera grand, Samuel veut devenir un joueur de football professionnel. "},
 
+    {"name":"Sandy",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
     {"name":"Sebastien",
     "enBio":"Sebastian loves to play with his best friend Carl. His favourite school subject is math, and when he is older he wants to become a police officer.",
     "frBio":"Sebastian adore jouer avec son meilleur ami Carl. Les mathématiques sont son sujet scolaire préféré. Lorsqu’il sera plus grand, il aimerait devenir policier. "},
 
     {"name":"Sherika",
+    "enBio":"Child's Bio... Some English stuff!",
+    "frBio":"Child's Bio... Des choses Françaises!"},
+
+    {"name":"Stanley",
     "enBio":"Child's Bio... Some English stuff!",
     "frBio":"Child's Bio... Des choses Françaises!"},
 
