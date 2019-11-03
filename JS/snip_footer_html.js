@@ -13,7 +13,7 @@ var snip_footer_html = `
                 <span class="en" lang="en"> For more information about The Zanmi Beni Foundation, you can follow us on </span>
                 <span class="fr" lang="fr"> Pour plus d'informations sur la Fondation Zanmi Beni, vous pouvez nous suivre sur </span>
 
-                <a href="#" class="link"> Facebook </a>
+                <a href="https://www.facebook.com/FriendsofZB/" class="link"> Facebook </a>
 
                 <span class="en" lang="en"> and </span>
                 <span class="fr" lang="fr"> et </span>
