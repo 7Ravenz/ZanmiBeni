@@ -188,9 +188,6 @@ var kids =
     "enBio":"Pascale is intellectually and physically disabled and is unable to communicate verbally. He does not engage with or respond to others. He uses a wheelchair and caregivers assist Pascal with all his daily living needs.",
     "frBio":"Pascale souffre d’incapacités physiques et de déficience intellectuelle et ne peut pas communiquer verbalement. Il n’engage pas de dialogue et ne répond pas non plus. Il se sert d’un fauteuil roulant et les fournisseurs de soins s’assurent de répondre à tous ses besoins au quotidien."},
 
-    
-
-
     {"name":"Patrick",
     "enBio":"Patrick is known as the “Mayor” of Zanmi Beni.  He has cerebral palsy and is deaf. While he is unable to communicate verbally, Patrick is very opinionated and makes his views known through gestures and some sign language which he has learned while at Zanmi Beni. Patrick participates in chores around the campus and enjoys helping in the various construction projects that have taken place.  While Patrick originally used a wheelchair, he has learned to walk and run going through many pairs of sneakers every year. He has also become a whiz on the computer.",
     "frBio":"Patrick est reconnu comme le « maire » de Zanmi Beni. Il est atteint d’une paralysie cérébrale et est sourd. Bien qu’il ne soit pas capable de communiquer verbalement, Patrick est borné et fait connaitre son point de vue en utilisant des gestes et le peu de langage des signes qu’il a appris ici, à Zanmi Beni. Patrick participe aux tâches ménagères du campus et aime contribuer aux différents projets de construction. Au départ, Patrick utilisait un fauteuil roulant, mais il a appris à marcher et courir. Durant le processus, il est passé à travers de plusieurs paires de chaussures par année. Il est aussi devenu un pro de l’informatique."},
